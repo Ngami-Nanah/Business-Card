@@ -1,0 +1,48 @@
+body {
+  background-color: #C7CFD1;
+  font: 16px/1 'PT Sans', 'arial', sans-serif;
+}
+
+.image-block img {
+  width: 180px;
+}
+.text-block {
+ color: #2d2d2d;
+}
+
+#site-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  background-image: url(groovepaper.png);
+  padding: 2em;
+  width: 300px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  border-radius: .8em;
+  -webkit-box-shadow: 14px 13px 9px -6px #000000;
+box-shadow: 14px 13px 9px -6px #000000;
+}
+.header {
+  font-size: .8rem;
+}
+
+a {
+  color: #2273CB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5BA6F5
+}
+.image-block,
+.text-block {
+  display: inline-block;
+  vertical-align: middle;
+}
